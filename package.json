@@ -1,6 +1,6 @@
 {
   "name": "@crewplanner/five-star-rating",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.0.1",
@@ -10,13 +10,11 @@
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^5.1.0",
     "gulp-uglify": "^1.1.0",
-    "jshint-stylish": "^2.2.1"
+    "jshint-stylish": "^2.2.1",
+    "node-sass": "^9.0.0"
   },
   "resolutions": {
     "graceful-fs": "^4.2.11"
-  },
-  "dependencies": {
-    "node-sass": "^9.0.0"
   },
   "description": "This is a five star rating component built with JavaScript and CSS. It supports hovering over stars and updating the visuals to match, clicking on stars to update the rating, executing a callback after clicking/setting the star rating, and manually setting and getting the star rating. You can use as many of the components on a page as  you want.",
   "main": "gulpfile.js",
