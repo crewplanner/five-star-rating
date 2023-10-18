@@ -11,7 +11,7 @@
   var jshint = require('gulp-jshint');
   var notify = require("gulp-notify");
   var rename = require('gulp-rename');
-  var sass = require('gulp-sass');
+  var sass = require('gulp-sass')(require('node-sass'));
   var stylish = require('jshint-stylish');
   var uglify = require('gulp-uglify');
 
